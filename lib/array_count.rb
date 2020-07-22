@@ -4,8 +4,8 @@ def count_strings(array)
   all_string = []
   string = 
   array.count{| element | 
-  if element == String do 
-  all_string << element 
+  element == String 
+
   
   end
   
