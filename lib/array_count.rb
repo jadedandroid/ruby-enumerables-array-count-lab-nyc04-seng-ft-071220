@@ -3,7 +3,7 @@ require "pry"
 def count_strings(array)
   string = 
   array.count{| element | 
-  element == String 
+  element.class == String 
   }
   
   
