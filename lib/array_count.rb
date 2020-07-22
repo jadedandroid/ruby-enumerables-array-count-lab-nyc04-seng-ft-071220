@@ -1,17 +1,11 @@
 require "pry"
 
 def count_strings(array)
-  all_string = []
   string = 
   array.count{| element | 
   element == String 
-
-  
-  end
-  
-end
   }
-  return all_string.count
+  
   
   binding.pry
   # Return the total number of strings in the provided array using the count enumerable
