@@ -7,7 +7,7 @@ def count_strings(array)
   }
   
   
-  binding.pry
+ # binding.pry
   # Return the total number of strings in the provided array using the count enumerable
 end
 
